@@ -1,0 +1,118 @@
+body {
+    background: #fffff;
+
+}
+
+nav {
+    background-color: #a306b6;
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    column-gap: 40px;
+    padding-left: 10px;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: #a306b6;
+    padding: 25px;
+}
+
+h1 {
+    background-color: #DCDCDC;
+    padding: 30px;
+    margin 20px 0;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+main div {
+    background: white;
+    color: black;
+
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    background-color: #DCDCDC;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    width: 60%;
+}
+
+textarea {
+    background-color: #DCDCDC;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+
+button {
+    background-color: #a306b6;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 30px
+}
+
+footer {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+}
+
+footer span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
